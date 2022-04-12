@@ -16,7 +16,9 @@ print("Welcome to the one and only Number Guessing Game")
 name = input("What is your name: ")	
 print(f"We are ready to begin {name}!")
 
-
+score = 0
+#Present the last score of the last game
+print(f"Here is the score you have to beat {score}")
 
 
 # method for the start of the game begin_game()
