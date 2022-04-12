@@ -79,7 +79,7 @@ while user_play_again == "Y":
     else:
       score
   else:
-      print(f"Good luck! Come back again {name}")
+      print(f"Good luck! Come back again {name} and here is your latest {score} total of points")
       sys.exit()
       
 
