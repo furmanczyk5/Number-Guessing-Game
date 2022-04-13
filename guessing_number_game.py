@@ -73,15 +73,16 @@ while user_play_again == "Y":
   
   if user_play_again == "Y":
     
-    print(f"thanks for playing your score was {score}")
+    print(f"Thanks for playing your score was {score}")
     score = main()
     
     if new_score > score:
       score = new_score
     else:
       score
+
   else:
-      print(f"Good luck! Come back again {name} and here is your latest {score} total of points")
+      print(f"Good luck! Come back again {name} and here is your latest {score} total score")
       sys.exit()
       
 
